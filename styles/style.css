@@ -1,0 +1,61 @@
+/* universal selector */
+* {
+    font-family: "Mulish", sans-serif;
+}
+
+body {
+    max-width: 1150px;
+    margin: 50px auto;
+}
+
+/* Header Starts */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.nav-head {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 15px;
+}
+
+.nav-head img {
+    width: 40px;
+    height: 40px;
+}
+
+.nav-title {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.primary-color {
+    color: rgb(255, 84, 0);
+}
+
+.nav-links ul {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.nav-links  li {
+    list-style: none;
+    
+}
+
+.nav-link > li , a {
+    text-decoration: none;
+    color: rgb(44, 46, 46);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* banner section */
+
