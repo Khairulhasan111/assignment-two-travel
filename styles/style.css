@@ -96,6 +96,54 @@ a {
     margin: 10px 0;
 }
 
+.where-go {
+
+
+    /* width: 800px; */
+    /* height: 80px; */
+    border-radius: 8px;
+    padding: 15px 15px;
+    background: rgba(255, 255, 255, 0.3);
+    /* gap: 15px; */
+    margin-top: 50px;
+
+}
+
+.div-where {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.where-input {
+    border-radius: 8px;
+    border: none;
+    background: rgb(255, 255, 255);
+    padding: 15px 20px;
+    color: rgba(19, 19, 24, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    width: 150px;
+
+}
+
+.where-btn {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    background: rgb(255, 84, 0);
+    padding: 15px 20px;
+    width: 150px;
+}
+
+
 
 
 
@@ -120,7 +168,7 @@ a {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-bottom: 60px;
+        margin-bottom: 40px;
     }
 
     .nav-head {
@@ -166,6 +214,99 @@ a {
         font-size: 18px;
         font-weight: 400;
     }
+
+
+    /* Banner section  */
+
+    .banner-section {
+        background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%), url('../Images/Group\ 13.png');
+        /* background-image: ; */
+        width: 100%;
+        /* height: 500px; */
+        background-repeat: no-repeat;
+        /* padding: 100px 50px; */
+        /* justify-content: center;
+        align-items: center; */
+        text-align: center;
+        /* text-wrap: wrap; */
+        border-radius: 16px;
+        /* background-attachment: fixed; */
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .banner-container {
+        padding: 20px 15px;
+    }
+
+    .banner-container h1 {
+        color: rgb(255, 255, 255);
+        font-size: 32px;
+        font-weight: 800;
+        margin: 5px auto;
+    }
+
+    .banner-container p {
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 400;
+        margin: 10px 0;
+    }
+
+
+    .where-go {
+
+
+        /* width: 800px; */
+        /* height: 80px; */
+        border-radius: 8px;
+        padding: 15px 15px;
+        background: rgba(255, 255, 255, 0.3);
+        /* gap: 15px; */
+        margin-top: 25px;
+
+    }
+
+    .div-where {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 15px;
+
+    }
+
+    .where-input {
+        border-radius: 8px;
+        border: none;
+        background: rgb(255, 255, 255);
+        padding: 15px 20px;
+        color: rgba(19, 19, 24, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+        text-align: left;
+        width: 250px;
+
+    }
+
+    .where-btn {
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        border-radius: 8px;
+        border: none;
+        background: rgb(255, 84, 0);
+        padding: 15px 20px;
+        width: 250px;
+    }
+
+
+
+
+
+
 
 }
 
