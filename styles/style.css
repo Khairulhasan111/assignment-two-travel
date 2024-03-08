@@ -305,6 +305,78 @@ a {
 /* destination section ends */
 
 
+/* Choose section starts here */
+
+.choose {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.choose-first-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    text-align: left;
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+
+.choose-first-row-one {
+    box-sizing: border-box;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+    width: 587.5px;
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px 50px 30px 30px;
+}
+
+.choose-first-row-two {
+    box-sizing: border-box;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    border-radius: 16px;
+    width: 587.5px;
+    background: rgba(41, 206, 246, 0.05);
+    padding: 30px 50px 30px 30px;
+}
+
+.choose-row-two {
+    box-sizing: border-box;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    border-radius: 16px;
+    width: 587.5px;
+    background: rgba(233, 68, 68, 0.05);
+    margin: 0 auto;
+    padding: 30px 50px 30px 30px;
+    text-align: left;
+
+}
+
+.choose-common-title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.choose-common-des {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+/* Choose section ends here */
+
+
+
+
+/* Deals section starts here */
+
+
+
+
+
+
+/* Deals section ends here */
+
 
 
 
@@ -628,6 +700,71 @@ a {
 
 
     /* destination section ends */
+
+
+
+
+
+    /* Choose section starts here */
+
+    .choose {
+        margin: 50px auto;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .choose-first-row {
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 25px;
+        text-align: left;
+        margin-bottom: 25px;
+        margin-top: 40px;
+    }
+
+    .choose-first-row-one {
+        box-sizing: border-box;
+        border: 1px solid rgba(251, 181, 99, 0.2);
+        border-radius: 16px;
+        width: 100%;
+        background: rgba(251, 181, 99, 0.05);
+        padding: 30px 50px 30px 30px;
+    }
+
+    .choose-first-row-two {
+        box-sizing: border-box;
+        border: 1px solid rgba(41, 206, 246, 0.2);
+        border-radius: 16px;
+        width: 100%;
+        background: rgba(41, 206, 246, 0.05);
+        padding: 30px 50px 30px 30px;
+    }
+
+    .choose-row-two {
+        box-sizing: border-box;
+        border: 1px solid rgba(233, 68, 68, 0.2);
+        border-radius: 16px;
+        width: 100%;
+        background: rgba(233, 68, 68, 0.05);
+        margin: 0 auto;
+        padding: 30px 50px 30px 30px;
+        text-align: left;
+
+    }
+
+    .choose-common-title {
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+    .choose-common-des {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+
+
+    /* Choose section ends here */
 
 
 
