@@ -371,7 +371,9 @@ a {
 /* Deals section starts here */
 
 
-
+.deals {
+    text-align: center;
+}
 
 
 
